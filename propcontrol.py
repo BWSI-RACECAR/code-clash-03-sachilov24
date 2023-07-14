@@ -38,24 +38,32 @@ Input: center= 800, tuples(x, y) = (1600, 900)  Output: 0.000000
 Input: center= 720, tuples(x, y) = (1440, 900)  Output: 0.000000
 """
 
-class Solution:    
-    def propcontrol(self, center, res):
-            #type center: int
-            #type res: tuples of int
-            #return type: float
-            
-            #TODO: Write code below to return a float with the solution to the prompt.
-            pass
-        
-    def P_Controler(
+
+def P_Controler(
     Value: float,
     old_min: float,
     old_max: float,
     new_min: float,
-    new_max: float,) -> float:
+    new_max: float,
+) -> float:
 
     Prop_control= (Value - old_min) / (old_max - old_min)
     return Prop_control * (new_max - new_min) + new_min
+    
+    
+class Solution:    
+    def propcontrol(center,0, res[0],-1,1):
+            #type center: int
+            #type res: tuples of int
+            #return type: float
+            
+            
+            return P_Controler(self,center,res[])
+            #TODO: Write code below to return a float with the solution to the prompt.
+            pass
+        
+   
+
         
         
 
