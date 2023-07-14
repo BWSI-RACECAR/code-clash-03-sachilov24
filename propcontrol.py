@@ -52,13 +52,13 @@ def P_Controler(
     
     
 class Solution:    
-    def propcontrol(center,0, res[0],-1,1):
+    def propcontrol(self, center, res):
             #type center: int
             #type res: tuples of int
             #return type: float
             
             
-            return P_Controler(self,center,res[])
+            return P_Control(center,0, res[0],-1,1)
             #TODO: Write code below to return a float with the solution to the prompt.
             pass
         
