@@ -58,7 +58,7 @@ class Solution:
             #return type: float
             
             
-            return P_Control(center,0, res[0],-1,1)
+            return P_Controler(center,0, res[0],-1,1)
             #TODO: Write code below to return a float with the solution to the prompt.
             pass
         
